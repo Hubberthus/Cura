@@ -10,7 +10,7 @@
         "category": "Other",
         "file_formats": "text/x-gcode",
         "platform": "easy3dmaker.stl",
-        "has_materials": true
+        "has_materials": false
     },
 
     "overrides": {
@@ -39,10 +39,10 @@
         "machine_head_with_fans_polygon":
         {
             "default_value": [
-                [ -40, 40 ],
-                [ -40, -40 ],
-                [ 40, 40 ],
-                [ 40, -40 ]
+                [ -40, 50 ],
+                [ -40, -30 ],
+                [ 40, 50 ],
+                [ 40, -30 ]
             ]
         },
         "gantry_height": {
